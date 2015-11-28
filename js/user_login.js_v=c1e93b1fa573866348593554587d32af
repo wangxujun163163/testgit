@@ -1,0 +1,1 @@
+function onDOMReady(){initStandLogin()}function initStandLogin(){var a={close:onStandLoginClose,succ:onStandLoginSucc};$(".content_right_con").modallogin(a)}function onStandLoginClose(a,b){}function onStandLoginSucc(a,b){return b&&0==b.code?void(window.location.href=b.content.redirectURL||document.referrer||"/"):void 0}$(document).ready(onDOMReady);

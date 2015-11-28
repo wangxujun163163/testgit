@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+<meta content="【村长团车】,秒车团" name="Keywords"/>
+<meta content="【村长团车】,秒车团。客服电话：4000-970-970。" name="Description"/>
+<link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon">
+<title>村长团车_秒车团</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css_v=f19a048a03ceb42b3f98cdc0362d5817.css"/>
+<link rel="stylesheet" type="text/css" href="css/tuan/index.css_v=4ab70f68e492cc5427c9600b07bcae0b.css"/>
+<link rel="stylesheet" type="text/css" href="css/external/tuanindex.css_v=0a3ae6530cab89c3103cccad7baca0de.css"/>
+</head>
+<body>
+    <div class="external_container">
+        <div class="overlay_wrap overlay_form" id="overlay_form">
+            <img class="badge1" src="img/tuan/tuan_index_icon_badge_1.png" />
+            <div class="info_item overlay_container">
+                <a class="badge2_wrap" href="shanghai/tuan/index.html" target="_blank"><img class="badge2" src="img/tuan/tuan_index_icon_logotuan.png" /></a>
+                <p class="info_title">秒车团报名</p>
+                <div class="apply_wrap width500">
+                    <div class="form_control">
+                        <span class="key"><em class="redstar">*</em>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;区：</span>
+                        <div class="value">
+                            <select id="overlay_area">
+                                                        <option value ="110100">北京团购</option>
+                                                        <option value ="310100">上海团购</option>
+                                                        <option value ="440100">广州团购</option>
+                                                        <option value ="440300">深圳团购</option>
+                                                        <option value ="441900">东莞团购</option>
+                                                        <option value ="440600">佛山团购</option>
+                                                        <option value ="350200" selected>厦门团购</option>
+                                                        <option value ="510100">成都团购</option>
+                                                        <option value ="420100">武汉团购</option>
+                                                        </select>
+                        </div>
+                    </div>
+                    <div class="form_control">
+                        <span class="key"><em class="redstar">*</em>品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;牌：</span>
+                        <div class="value">
+                            <select id="overlay_brand" disabled>
+                                <option value ="-1">请选择品牌</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form_control">
+                        <span class="key"></span>
+                        <div class="value gift_brightness">
+                            <p class="gift" id="overlay_gift"><span>赠</span></p>
+                        </div>
+                    </div>
+                    <div class="form_control">
+                        <span class="key"><em class="redstar">*</em>车&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;型：</span>
+                        <div class="value">
+                            <select id="overlay_series" disabled>
+                                <option value ="-1">请选择品牌</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form_control">
+                        <span class="key"><em class="redstar">*</em>购车方式：</span>
+                        <div class="value" id="overlay_purchase">
+                            <span class="selector_item selected" purchase="全款">全款</span><span class="selector_item" purchase="分期">分期</span><span class="selector_item" purchase="置换">置换</span><span class="selector_item" purchase="分期置换">分期置换</span>
+                        </div>
+                    </div>
+                    <div class="form_control">
+                        <span class="key"><em class="redstar">*</em>姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：</span>
+                        <div class="value">
+                            <input placeholder="请输入购车人姓名" id="overlay_name" />
+                        </div>
+                    </div>
+                    <div class="form_control">
+                        <span class="key"><em class="redstar">*</em>电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话：</span>
+                        <div class="value">
+                            <input placeholder="请输入购车人手机号" id="overlay_mobile" />
+                        </div>
+                    </div>
+                    <span class="btn alignleft" id="overlay_btn">报名参团</span>
+                </div>
+                <div class="logos_wrap"><span>联合出品</span><img src="img/tuan/tuan_index_icon_logos.png" /></div>
+            </div>
+        </div>
+
+        <div class="overlay_wrap overlay_code" id="overlay_code">
+            <div class="info_item overlay_container">
+                <p class="info_title">验证手机号码</p>
+                <div class="apply_wrap">
+                    <img src="img/tuan/tuan_index_icon_right.png" />
+                    <p><b>提交报名信息成功，请验证手机号！</b></p>
+                    <p>我们已经将验证码发送到您的手机上，请输入验证码完成报名！</p>
+                    <p class="code_p">验证码 <input placeholder="请输入验证码" id="overlay_code_code" /></p>
+                    <span class="btn" id="overlay_code_btn">提交</span>
+                    
+                </div>
+                <div class="logos_wrap"><span>联合出品</span><img src="img/tuan/tuan_index_icon_logos.png" /></div>
+            </div>
+        </div>
+
+        <div class="overlay_wrap overlay_right" id="overlay_right">
+            <div class="info_item overlay_container">
+                <p class="info_title">报名成功</p>
+                <div class="apply_wrap">
+                    <img src="img/tuan/tuan_index_icon_right.png" />
+                    <p><b>恭喜您，报名成功！</b></p>
+                    <p>我们会在2个工作日内联系您，确认参加活动细节，活动地址以活动开始前一天短信通知为准！</p>
+                    <img src="img/qrcode_wx.png" />
+                    <p>关注微信获取活动最新信息</p>
+                    <span class="btn" id="overlay_right_btn">确定</span>
+                </div>
+                <div class="logos_wrap"><span>联合出品</span><img src="img/tuan/tuan_index_icon_logos.png" /></div>
+            </div>
+        </div>
+
+        <div class="overlay_wrap overlay_err" id="overlay_err">
+            <div class="info_item overlay_container">
+                <p class="info_title">未能成功报名</p>
+                <div class="apply_wrap">
+                    <img src="img/tuan/tuan_index_icon_err.png" />
+                    <p><b>系统忙，请稍后再试</b></p>
+                    <span class="btn" id="overlay_err_btn">确定</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    var current_area_id = 350200;
+    var current_brand_id = 0;
+    var current_series_id = 0;
+    var brands = {};
+    var areas = {};
+</script>
+<script type="text/javascript" charset="utf-8" src="js/jquery-1.11.2.min.js_v=b3cf7eb6f18e0f36392782566a49b39d"></script>
+<script type="text/javascript" charset="utf-8" src="js/external/tuanindex.js_v=b5aabf9875aeba55588e83747b1caefd"></script>
+</body>
+</html>
