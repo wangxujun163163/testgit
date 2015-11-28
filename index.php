@@ -1,2 +1,3 @@
 <?php
-header("Location:/shenzhe/index.html");
+
+header("Location:/shenzhen/index.html");
